@@ -1,9 +1,10 @@
 #include <iostream>
-#include <string>
 #include <unordered_map>
 using namespace std;
 
 int main(){
+	ios_base::sync_with_stdio(0);
+	cin.tie(0);
     int N,M; cin>>N>>M;
     int answer = 0;
     unordered_map<string,int> map;
